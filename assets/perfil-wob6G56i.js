@@ -1,6 +1,6 @@
-import{p as s,a as t,d as r}from"./data-BdZF9JFf.js";import{i as a,a as n,e as o,t as l,n as i,b as p,m as d,s as c,c as u}from"./shell-xnYJDZnp.js";const m=e=>`
+import"./style-C-meZdpR.js";import{p as s,c as t,i as a,a as r,e as o,d as n,t as l,n as i,b as p,m as d,s as c,f as m}from"./shell-k4UXixwW.js";const u=e=>`
   <a href="post.html#${e.id}" class="relative block aspect-[3/4] overflow-hidden bg-ig-line" aria-label="${o(e.titulo)}">
-    ${e.slides?c(e.slides[0]):`<img src="${u(e)}" alt="" class="size-full object-cover">`}
+    ${e.slides?c(e.slides[0]):`<img src="${m(e)}" alt="" class="size-full object-cover">`}
     <span class="absolute right-1.5 top-1.5 flex gap-1 text-white drop-shadow-[0_0_2px_rgb(0_0_0/.6)]">
       ${e.fixado?a.pin("size-[18px]"):""}
       ${e.tipo==="reel"?a.reels("size-[18px]"):e.tipo==="carrossel"?a.multi("size-[18px]"):""}
@@ -13,7 +13,7 @@ import{p as s,a as t,d as r}from"./data-BdZF9JFf.js";import{i as a,a as n,e as o
   </div>
   <div class="no-scrollbar min-h-0 flex-1 overflow-y-auto">
     <div class="flex items-center gap-5 px-4 pt-2">
-      <a href="destaques.html#historia" aria-label="Ver stories">${n("size-[80px]",!0)}</a>
+      <a href="destaques.html#historia" aria-label="Ver stories">${r("size-[80px]",!0)}</a>
       <div class="min-w-0 flex-1 space-y-1.5">
         <p class="truncate text-[15px] font-semibold">${o(s.nomeExibicao)}</p>
         <div class="flex justify-between pr-2 text-[13px] leading-[16px]">
@@ -35,7 +35,7 @@ import{p as s,a as t,d as r}from"./data-BdZF9JFf.js";import{i as a,a as n,e as o
       <span class="grid w-[34px] place-items-center rounded-lg bg-ig-btn">${a.personAdd("size-4")}</span>
     </div>
     <div class="no-scrollbar flex gap-4 overflow-x-auto px-4 pb-1 pt-4">
-      ${r.map(e=>`
+      ${n.map(e=>`
         <a href="destaques.html#${e.id}" class="grid w-[64px] shrink-0 justify-items-center gap-1.5 text-[12px] leading-[14px]">
           <span class="rounded-full border border-ig-line p-[3px]"><span class="block size-[56px] overflow-hidden rounded-full bg-ig-line"><img src="${e.capa}" alt="" class="size-full object-cover"></span></span>
           <span class="w-full truncate text-center">${o(e.nome)}</span>
@@ -46,7 +46,7 @@ import{p as s,a as t,d as r}from"./data-BdZF9JFf.js";import{i as a,a as n,e as o
       <a href="reels.html" class="grid place-items-center border-b border-ig-line py-2.5 text-ig-muted" aria-label="Reels">${a.reels("size-6")}</a>
       <span class="grid place-items-center border-b border-ig-line py-2.5 text-ig-muted">${a.tag("size-6")}</span>
     </div>
-    <div class="grid grid-cols-3 gap-[2px] pt-[2px]">${t.map(m).join("")}</div>
+    <div class="grid grid-cols-3 gap-[2px] pt-[2px]">${t.map(u).join("")}</div>
   </div>
   ${l("perfil")}`,x=`
   <div class="space-y-2 rounded-xl border border-dashed border-linha bg-white p-5">
@@ -61,6 +61,7 @@ import{p as s,a as t,d as r}from"./data-BdZF9JFf.js";import{i as a,a as n,e as o
   ${i(4,"Conta profissional · Figura pública","Gratuito. Libera estatísticas, botão de contato e agendamento de posts pelo Meta Business Suite, essencial quando a internet da aldeia falha.")}
   ${i(5,"Link na bio","“Declare seu apoio” é uma sugestão: um link de WhatsApp com mensagem pronta para quem quiser mandar um vídeo de apoio. <b>Pendente com a Andrea.</b> Se não houver link, a linha some.")}
   ${i(6,"Sete destaques",'Funcionam como um menu permanente: história, apoios, feitos, saúde, território, atuação política e cultura. <a class="font-semibold text-rio underline" href="destaques.html">Ver os destaques</a>.')}
-  ${i(7,"Três posts fixados",'Primeiro “Quem é ele”; ao lado, os vídeos das lideranças que o apoiam. Logo abaixo vem a série <b>“O que já fizemos”</b>, com o que ele conquistou: a secretaria indígena de Pauini, a associação da Aldeia Boa Vista, a demarcação de 1987. <a class="font-semibold text-rio underline" href="post.html">Ver os posts</a>.')}
+  ${i(7,"Três posts fixados",'Primeiro “Quem é ele”; ao lado, os vídeos das lideranças que o apoiam. Eles ficam sempre no topo, não importa quando foram publicados. <a class="font-semibold text-rio underline" href="post.html">Ver os posts</a>.')}
+  ${i(8,"Uma linha do tempo na coluna do meio",'As artes verdes da série <b>“O que já fizemos”</b> são publicadas em ordem cronológica, uma por semana: 1987, 1988, 2015, 2024. Como o Instagram mostra o post mais novo no topo, na grade elas aparecem de cima para baixo como 2024 → 1987, sempre na coluna do meio. <a class="font-semibold text-rio underline" href="plano.html#rotina">Ver o calendário</a>.')}
   ${p("Nas fotos de rituais e de grupo (destaque “Cultura”), só publicar com o ok da comunidade que aparece nelas.")}
 `;d({active:"perfil.html",title:"O perfil",intro:"Como um visitante vê a conta. Toque nos posts e nos destaques.",screen:b,notesHTML:x});
