@@ -1,4 +1,4 @@
-import{i as a,u as n,o as c,p as l,a as m,e as d,t as u,n as s,m as g}from"./shell-CTbO2ROe.js";const v=`
+import{r as n,b as c,p as l}from"./data-BdZF9JFf.js";import{i as a,a as m,e as d,t as u,n as s,m as g}from"./shell-xnYJDZnp.js";const v=`
   <div class="relative min-h-0 flex-1 overflow-hidden bg-black text-white">
     <div class="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-center px-4 pt-14 max-[640px]:pt-3">
       <p class="flex items-center gap-1 text-[22px] font-bold drop-shadow">Reels ${a.chevron("size-5")}</p>

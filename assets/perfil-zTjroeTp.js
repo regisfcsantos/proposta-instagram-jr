@@ -1,4 +1,4 @@
-import{p as s,f as t,i as a,a as r,e as o,d as n,t as l,n as i,b as p,m as d,s as c,g as u}from"./shell-CTbO2ROe.js";const m=e=>`
+import{p as s,a as t,d as r}from"./data-BdZF9JFf.js";import{i as a,a as n,e as o,t as l,n as i,b as p,m as d,s as c,c as u}from"./shell-xnYJDZnp.js";const m=e=>`
   <a href="post.html#${e.id}" class="relative block aspect-[3/4] overflow-hidden bg-ig-line" aria-label="${o(e.titulo)}">
     ${e.slides?c(e.slides[0]):`<img src="${u(e)}" alt="" class="size-full object-cover">`}
     <span class="absolute right-1.5 top-1.5 flex gap-1 text-white drop-shadow-[0_0_2px_rgb(0_0_0/.6)]">
@@ -13,7 +13,7 @@ import{p as s,f as t,i as a,a as r,e as o,d as n,t as l,n as i,b as p,m as d,s a
   </div>
   <div class="no-scrollbar min-h-0 flex-1 overflow-y-auto">
     <div class="flex items-center gap-5 px-4 pt-2">
-      <a href="destaques.html#historia" aria-label="Ver stories">${r("size-[80px]",!0)}</a>
+      <a href="destaques.html#historia" aria-label="Ver stories">${n("size-[80px]",!0)}</a>
       <div class="min-w-0 flex-1 space-y-1.5">
         <p class="truncate text-[15px] font-semibold">${o(s.nomeExibicao)}</p>
         <div class="flex justify-between pr-2 text-[13px] leading-[16px]">
@@ -35,7 +35,7 @@ import{p as s,f as t,i as a,a as r,e as o,d as n,t as l,n as i,b as p,m as d,s a
       <span class="grid w-[34px] place-items-center rounded-lg bg-ig-btn">${a.personAdd("size-4")}</span>
     </div>
     <div class="no-scrollbar flex gap-4 overflow-x-auto px-4 pb-1 pt-4">
-      ${n.map(e=>`
+      ${r.map(e=>`
         <a href="destaques.html#${e.id}" class="grid w-[64px] shrink-0 justify-items-center gap-1.5 text-[12px] leading-[14px]">
           <span class="rounded-full border border-ig-line p-[3px]"><span class="block size-[56px] overflow-hidden rounded-full bg-ig-line"><img src="${e.capa}" alt="" class="size-full object-cover"></span></span>
           <span class="w-full truncate text-center">${o(e.nome)}</span>
